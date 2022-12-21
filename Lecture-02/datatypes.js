@@ -8,10 +8,10 @@ const employeee = {
 };
 
 function sayHello(person) {
-    crossOriginIsolated.log("Hello" + person.firstName);
+    console.log("Hello" + person.firstName);
 }
 
 console.log(typeof people);
 console.log(typeof sayHello)
 console.log(employeee instanceof Array);
-sayHello(employeee)
+sayHello(employeee);
